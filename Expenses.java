@@ -16,7 +16,7 @@ public class Expenses {
         boolean shouldContinue = true;
         boolean inputAccepted = false;
         String nextString;
-        //comment
+
 
         float expenseSubtotal = 0;
         float incomeSubtotal = 0;
@@ -25,7 +25,7 @@ public class Expenses {
         double max;
         int maxNumDigit = 3;
         int digitCount = 3;
-
+        //comment
         System.out.println("Please input the name of your expense the ENTER key,\nthen the cost of the expense,\nbefore pressing the ENTER key again.\nPositive and negative values are accepted.\nNo extra symbols are to be used when entering the costs.\nWhen you're done simply press ENTER one more time.");
         while (shouldContinue) {
 
